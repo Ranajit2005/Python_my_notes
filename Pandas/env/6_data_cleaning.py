@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas as pd # type: ignore
 
 '''
 NaN : when a value is missing or not available in the dataset, it is represented as NaN (Not a Number) in pandas.
@@ -48,4 +48,3 @@ print(df.isnull().sum())
 df['Salary'].interpolate(method='linear', inplace=True)
 print("\nDataFrame after cubic interpolation in Salary column:")
 print(df)
-

@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas as pd # type: ignore
 
 data = {
     "Name": ["Alice", "Bob", "Charlie", "David", "Eva", "Frank", "Grace", "Hannah", "Ian", "Jack", "Kate", "Leo", "Mia", "Nina", "Oscar", "Paul", "Quinn", "Rita", "Sam", "Tina"],
