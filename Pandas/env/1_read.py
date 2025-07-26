@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas as pd # type: ignore
 
 # Read a CSV file using pandas
 df_csv = pd.read_csv("sales_data_sample.csv", encoding='latin1')

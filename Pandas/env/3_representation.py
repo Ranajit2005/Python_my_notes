@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas as pd # type: ignore
 
 df = pd.read_json('sample_Data.json')
 
